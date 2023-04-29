@@ -20,4 +20,4 @@ https://www.tiktok.com/@tate_arthur/video/7153370139759594798?is_from_webapp=1&s
 *Each link will be devided by a commma and no space between them 
 **How to get tiktok video link, visit this: https://www.groovypost.com/howto/copy-a-link-in-tiktok/
 
-
+6. After run index file, videos will be downloaded to the folder names 'videos' 
