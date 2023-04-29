@@ -3,15 +3,17 @@ This code using Puppeteer (nodejs package) to automatic download multi tiktok vi
 
 How to run 
 
-1. Clone this repository (https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)
-2. Open termnial 
-3. Direct the folder localtion (using cd command)
+1. Clone this repository (don't know how to clone, visit this https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)
+2. Inside folder 'tiktok-multi-videos-downloader', create a new folder names 'videos'.
+3. Open termnial 
+4. Direct the folder location (using cd command)
 *if you're running this file for the very first beginning make sure you install nodejs on your company, and install these packages: puppeteer,axios,fs,path,readline
 ** npm i puppeteer,axios,fs,path,readline ==> this command line helps you to install all required packages for this project 
-4. Run index.js file
+
+5. Run index.js file
 node index
 
-5. After run the above file, system will require you to enter the tiktok video links you want to download, I'll give you example how to enter the link for the following:
+6. After run the above file, system will require you to enter the tiktok video links you want to download, I'll give you example how to enter the link for the following:
 
 Example: 
 
@@ -20,4 +22,4 @@ https://www.tiktok.com/@tate_arthur/video/7153370139759594798?is_from_webapp=1&s
 *Each link will be devided by a commma and no space between them 
 **How to get tiktok video link, visit this: https://www.groovypost.com/howto/copy-a-link-in-tiktok/
 
-6. After run index file, videos will be downloaded to the folder names 'videos' 
+7. After run index file, videos will be downloaded to the folder names 'videos' 
