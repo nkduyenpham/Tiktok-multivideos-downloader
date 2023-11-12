@@ -36,7 +36,7 @@ This script utilizes Puppeteer, a Node.js package, to automate the download of m
      ```
 
 7. **Video Download:**
-   - After running the script, the videos will be downloaded to a folder named 'videos'.
+   - After running the script, the videos will be downloaded to a folder named 'videos' (you have to create a `videos` folder in the same project root before running the file)
 
 *Note: Ensure that Node.js is installed and the required packages are installed before running the script. If you need help obtaining TikTok video links, refer to [this guide](https://www.groovypost.com/howto/copy-a-link-in-tiktok/).*
 
