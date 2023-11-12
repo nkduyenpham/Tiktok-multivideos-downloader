@@ -40,4 +40,16 @@ This script utilizes Puppeteer, a Node.js package, to automate the download of m
 
 *Note: Ensure that Node.js is installed and the required packages are installed before running the script. If you need help obtaining TikTok video links, refer to [this guide](https://www.groovypost.com/howto/copy-a-link-in-tiktok/).*
 
+# Disclaimer
+
+**Important:** This script is developed for educational and personal use only. The developers of this script do not endorse or encourage the violation of any TikTok policies or terms of service. The use of this script to download TikTok videos must comply with TikTok's terms and conditions.
+
+**Note:** TikTok's policies may change, and it is the responsibility of the user to ensure that their use of this script aligns with the latest TikTok policies. The developers are not responsible for any misuse, violations, or legal consequences resulting from the use of this script.
+
+By using this script, you acknowledge and accept the risks associated with potential policy violations and agree to use it responsibly and in accordance with TikTok's terms of service.
+
+This script is provided as-is, without any warranties or guarantees. The developers are not liable for any damages or legal implications arising from the use of this script.
+
+**Use at your own risk.**
+
 Feel free to reach out if you encounter any issues or have questions!
