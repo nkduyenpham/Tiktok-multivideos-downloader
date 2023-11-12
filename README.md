@@ -1,24 +1,43 @@
-# tiktok-multi-videos-downloader
-This code using Puppeteer (nodejs package) to automatic download multi tiktok videos at once.
+# TikTok Multi-Video Downloader
 
-How to run 
+This script utilizes Puppeteer, a Node.js package, to automate the download of multiple TikTok videos simultaneously.
 
-1. Clone this repository (don't know how to clone, visit this https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)
-2. Open termnial 
-3. Direct the folder location (using cd command)
-*if you're running this file for the very first beginning make sure you install nodejs on your company, and install these packages: puppeteer,axios,fs,path,readline
-** npm i puppeteer,axios,fs,path,readline ==> this command line helps you to install all required packages for this project 
+## How to Run
 
-4. Run index.js file
-node index
+1. **Clone this Repository:**
+   - If you're unfamiliar with cloning, follow the instructions [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop).
 
-5. After run the above file, system will require you to enter the tiktok video links you want to download, I'll give you example how to enter the link for the following:
+2. **Open Terminal:**
+   - Open your terminal or command prompt.
 
-Example: 
+3. **Navigate to the Project Folder:**
+   - Use the `cd` command to direct the terminal to the location where you cloned the repository.
 
-https://www.tiktok.com/@tate_arthur/video/7153370139759594798?is_from_webapp=1&sender_device=pc&web_id=7218885320183121410,https://www.tiktok.com/@sillz/video/7180037715709152555?is_from_webapp=1&sender_device=pc&web_id=7218885320183121410,https://www.tiktok.com/@valon.jon/video/7221268411400146182?is_from_webapp=1&sender_device=pc&web_id=7218885320183121410
+4. **Install Node.js and Required Packages:**
+   - Ensure Node.js is installed on your computer.
+   - Install the required packages using the following command:
+     ```bash
+     npm i puppeteer axios fs path readline
+     ```
 
-*Each link will be devided by a commma and no space between them 
-**How to get tiktok video link, visit this: https://www.groovypost.com/howto/copy-a-link-in-tiktok/
+5. **Run the Script:**
+   - Execute the `index.js` file using the following command:
+     ```bash
+     node index
+     ```
 
-6. After run index file, videos will be downloaded to the folder names 'videos' 
+6. **Enter TikTok Video Links:**
+   - The script will prompt you to enter TikTok video links. Provide the links separated by commas (`,`), without any spaces.
+     ```plaintext
+     Example:
+     https://www.tiktok.com/@tate_arthur/video/7153370139759594798?is_from_webapp=1&sender_device=pc&web_id=7218885320183121410,
+     https://www.tiktok.com/@sillz/video/7180037715709152555?is_from_webapp=1&sender_device=pc&web_id=7218885320183121410,
+     https://www.tiktok.com/@valon.jon/video/7221268411400146182?is_from_webapp=1&sender_device=pc&web_id=7218885320183121410
+     ```
+
+7. **Video Download:**
+   - After running the script, the videos will be downloaded to a folder named 'videos'.
+
+*Note: Ensure that Node.js is installed and the required packages are installed before running the script. If you need help obtaining TikTok video links, refer to [this guide](https://www.groovypost.com/howto/copy-a-link-in-tiktok/).*
+
+Feel free to reach out if you encounter any issues or have questions!
